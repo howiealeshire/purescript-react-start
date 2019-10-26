@@ -30,4 +30,9 @@ See the `package.json` file for other commands, and to customize your project.
 
 ## Other notes
 
+### Boilerplate
+
+Included is the [react-basic-hooks](https://pursuit.purescript.org/packages/purescript-react-basic-hooks/2.0.3) example [Counter](https://github.com/spicydonuts/purescript-react-basic-hooks/tree/master/examples/counter).
+
+### Code formatting
 The code formatter [purty](https://gitlab.com/joneshf/purty) is already installed. To use with VS Code, install the extension [vscode-purty](https://marketplace.visualstudio.com/items?itemName=mvakula.vscode-purty) and press ⇧⌥F (Shift+Option+F) to activate.
