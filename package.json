@@ -1,0 +1,23 @@
+{
+  "name": "create-react-app-purescript",
+  "version": "0.1.0",
+  "author": "Clinton Reece",
+  "license": "ISC",
+  "scripts": {
+    "postinstall": "spago install",
+    "clean": "rm -rf output .spago dist/* *.lock",
+    "prebuild": "spago bundle-app --main Main --to dist/app.js",
+    "build": "parcel build public/index.html",
+    "prestart": "yarn run prebuild",
+    "start": "parcel public/index.html --port 3000 --open",
+    "output": "spago build",
+    "repl": "spago repl",
+    "test": "spago test --main Test.Main"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "purescript": "^0.13.4",
+    "purty": "^4.5.1",
+    "spago": "^0.10.0"
+  }
+}
